@@ -4,14 +4,7 @@
 }
 
 .main-body {
-  background-image: url(deco.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 125vh;   
-  padding:0px; 
-  margin: 0px; 
-  background-size: cover;  
+  background-color: rgb(239, 202, 239);  
   font-family: sans-serif; 
 }
 ul {
@@ -81,39 +74,16 @@ img {
     padding-left: 20px;
     
 }
-    
-    input[type=text], select, textarea {
-      width: 100%;
-      padding: 12px 20px;  
-      border: 1px solid black; 
-      border-radius: 4px;
-      box-sizing: border-box; 
-      margin-top: 6px; 
-      margin-bottom: 16px; 
-      margin:8px;
-    }
-    
-   
-    input[type=submit] {
-      color:#030303;
-      padding: 12px 20px;
-      border: black;
-      border-radius: 4px;
-      cursor: pointer;
-      
-    } 
-    input[type=submit]:hover {
-      border-color: #eb9dde;
-    }
-    
-    
-    .container {
+ .container {
       border-radius: 5px;
       padding: 20px;
     }
    
 .about-body{
   background-color:rgb(169, 126,169);
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 *{
   margin: 0;
@@ -131,6 +101,7 @@ img {
   max-width: 1000px;
   overflow: hidden;
   padding: 0 20px;
+  text-align: center;
   /*margin: auto;*/
 }
 
@@ -143,22 +114,23 @@ img {
 .border{
   width: 100px;
   height: 3px;
-  background: purple;
+  background: rgb(204, 111, 204);
   margin: 40px auto;
 }
 
 .about-section-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content:center;
 }
 
 .about-section-col {
-  flex: 50%;
+  flex: 100%;
 }
 
 .about{
-padding-right: 30px;
+text-align: center;
+width: 100%;
 }
 
 .about p {
@@ -293,13 +265,13 @@ material-symbols-outlined {
   font-size: 36px;
   font-variation-settings: "FILL" 1, "wght" 300, "GRAD" -25, "opsz" 20;
 }
-}
+
 
 h1 {
     font-family: 'Poppins', sans-serif, 'arial';
     font-weight: 600;
     font-size: 72px;
-    color: white;
+    color:black;
     text-align: center;
 }
 
@@ -388,8 +360,8 @@ textarea {
     padding: 7px 35px;
     border-radius: 60px;
     display: inline-block;
-    background-color: #4b8cfb;
-    color: white;
+    background-color:rgb(125, 93, 125);
+    color:black;
     font-size: 18px;
     cursor: pointer;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
@@ -413,12 +385,12 @@ textarea {
 }
 
 input[type=checkbox] + label {
-  color:bisque;
+  color :#000;
   font-style: italic;
 } 
 
 input[type=checkbox]:checked + label {
-  color: #f00;
+  color:black;
   font-style: normal;
 }
 .contact-body{
